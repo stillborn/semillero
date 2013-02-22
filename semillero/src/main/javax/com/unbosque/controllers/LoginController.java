@@ -21,6 +21,7 @@ public class LoginController {
 	            throws ServletException, IOException {
 	
 	        logger.info("Returning hello view");
+	        logger.info("Returning hello view 2222");
 	
 	        return new ModelAndView("views/login/index.html");
 	    }
